@@ -14,18 +14,18 @@
          Executa o programa exemplo
     -->
 
-    <groupId>com.github.kyriosdata</groupId>
-    <artifactId>exemplo</artifactId>
+    <groupId>com.github.igormontenegro</groupId>
+    <artifactId>cs20162-aula2</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0</version>
 
-    <name>com.github.kyriosdata:exemplo</name>
+    <name>com.github.igormontenegro:cs20162-aula2</name>
 
     <description>
         Projeto de referência (exemplo) inicial de desenvolvimento em Java com uso de JUnit.
     </description>
 
-    <url>https://github.com/kyriosdata/exemplo</url>
+    <url>https://github.com/igormontenegro/cs20162-aula2</url>
 
     <organization>
         <name>Instituto de Informática (UFG) - Fábrica de Software</name>
@@ -46,18 +46,18 @@
 
     <developers>
         <developer>
-            <id>kyriosdata</id>
-            <name>Fábio Nogueira de Lucena</name>
-            <email>fabio@inf.ufg.br</email>
+            <id>IgorMontenegro</id>
+            <name>Igor Montenegro</name>
+            <email>igor.c.montenegro.c@gmail.com</email>
             <organization>Instituto de Informática (UFG)</organization>
             <organizationUrl>http://www.inf.ufg.br</organizationUrl>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/kyriosdata/exemplo.git</connection>
-        <developerConnection>scm:git:https://github.com/kyriosdata/exemplo.git</developerConnection>
-        <url>https://github.com/kyriosdata/exemplo</url>
+        <connection>scm:git:https://github.com/igormontenegro/cs20162-aula2.git</connection>
+        <developerConnection>scm:git:https://github.com/igormontenegro/cs20162-aula2.git</developerConnection>
+        <url>https://github.com/igormontenegro/cs20162-aula2</url>
     </scm>
 
     <properties>
@@ -104,6 +104,21 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-report-plugin</artifactId>
                 <version>2.19.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <version>3.6</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jxr-plugin</artifactId>
+                <version>2.3</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>2.17</version>
             </plugin>
         </plugins>
     </reporting>
