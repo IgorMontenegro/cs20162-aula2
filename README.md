@@ -1,4 +1,4 @@
-# exemplo
+﻿# cs20162-aula2
 Projeto de referência (exemplo) básico em Java.
 
 ## Lembretes...
